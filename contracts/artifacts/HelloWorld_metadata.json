@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "anumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieveNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "storeNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Implements simple hello world contract",
+			"kind": "dev",
+			"methods": {
+				"retrieveNumber()": {
+					"details": "return anumber."
+				},
+				"storeNumber(uint256)": {
+					"details": "assign '_number' to anumber.",
+					"params": {
+						"_number": "number which will be assigned to anumber."
+					}
+				}
+			},
+			"title": "HelloWorld",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_HelloWorld.sol": "HelloWorld"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_HelloWorld.sol": {
+			"keccak256": "0x6afed44911feee33efa04c7503674b1aa11952ad1cf523edd3089ce7c052bbaa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://93463ecdcfb4b37987e72b918cfec426117bdb554dbe8c31f44669a106b3fc61",
+				"dweb:/ipfs/QmPk2uu1Rbj5Y8ZqWU4QvJ9v11NC48xXkmWiSUPs87j6jf"
+			]
+		}
+	},
+	"version": 1
+}
