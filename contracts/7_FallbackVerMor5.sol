@@ -26,3 +26,4 @@ contract FallBackDemo {
 
 //fallback
 //receive
+//Reference : https://blog.soliditylang.org/2020/03/26/fallback-receive-split/
