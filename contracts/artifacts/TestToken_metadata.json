@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "available",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "required",
+						"type": "uint256"
+					}
+				],
+				"name": "InsufficientBalance",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"errors": {
+				"InsufficientBalance(uint256,uint256)": [
+					{
+						"params": {
+							"available": "balance available.",
+							"required": "requested amount to transfer."
+						}
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"errors": {
+				"InsufficientBalance(uint256,uint256)": [
+					{
+						"notice": "Insufficient balance for transfer. Needed `required` but only `available` available."
+					}
+				]
+			},
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/10_customErrorExample.sol": "TestToken"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/10_customErrorExample.sol": {
+			"keccak256": "0x9c5dcff81d2396fa8bff00aec6a9ecb406bbe1a0fdb5883dfbb37590356f4c7a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://85c2268785fe2af2594ea1737165cf6668d8dde820a6e91a25bf63d7f359fb39",
+				"dweb:/ipfs/QmV4nM3MmR1PAwZ1ak74BaqRz7U9upuZJQ39wJ58r1JwQu"
+			]
+		}
+	},
+	"version": 1
+}

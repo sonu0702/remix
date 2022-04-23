@@ -1,44 +1,66 @@
 {
 	"compiler": {
-		"version": "0.5.16+commit.9c3226ce"
+		"version": "0.8.13+commit.abaa5c0e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "fallback"
+				"inputs": [],
+				"name": "Unauthorized",
+				"type": "error"
 			},
 			{
-				"constant": true,
-				"inputs": [],
-				"name": "x",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "available",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "required",
 						"type": "uint256"
 					}
 				],
-				"payable": false,
-				"stateMutability": "view",
+				"name": "UnauthorizedParams",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "throwError",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "throwErrorWithParameters",
+				"outputs": [],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/8_FallbackVerLes7.sol": "Test"
+			"contracts/9_customError.sol": "Test"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -46,11 +68,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/8_FallbackVerLes7.sol": {
-			"keccak256": "0x2dce04e4d15c90685da4a14ccf8b36d18d73b518a09e5afa727f79f81ca723ac",
+		"contracts/9_customError.sol": {
+			"keccak256": "0xc0ec42105b232d0afcc480db2bbc8561d7e12030c6713e1fb4691aa1182ea1ce",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e4477e95f82baccbcfa193584c7b2c6acfff206c93e6633a6a889be66755409e",
-				"dweb:/ipfs/QmbAo53ydd9WqZvTscXrf8Uxjgi9y4vVy3gUYQnVnBZniL"
+				"bzz-raw://7bf2f2266bdb514f36cbcfc53e1cc526e236f015a0f04d70149979d60bf4a00f",
+				"dweb:/ipfs/QmUijmSfeydLTtsN4cqyviRKQpknpMss1xnHXkCNnYh6RP"
 			]
 		}
 	},
