@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.5.11+commit.c082d0b4"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "implementation",
+				"outputs": [
+					{
+						"internalType": "contract Implementation",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "CallerLog",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EVMdeepdive/4_Exercise.sol": "Caller"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EVMdeepdive/3_Exercise.sol": {
+			"keccak256": "0x24836e57a493b1881c247bb8fe6cd3b9ab00fa5bf908031ef29b1f155a235c29",
+			"urls": [
+				"bzz-raw://fd87d45f0e93d7c58e2910195bff2ff1ffec8db24e04652c5295e356b9deca9d",
+				"dweb:/ipfs/QmShDrVTsy3SMSskGQnMh1SVW5oPquyE9sEVh7CzLWfNZU"
+			]
+		},
+		"contracts/EVMdeepdive/4_Exercise.sol": {
+			"keccak256": "0x283933b4ddd82063642c5175801f23396cdd16d275ea0bb9957ea9d46c8402d7",
+			"urls": [
+				"bzz-raw://5de9a0e829800a685283c83685a3368a5d8ac5b3da350933eb1364c98eb52407",
+				"dweb:/ipfs/QmZ27igVzT6kUj3gvbuNd4PWUhVfpXzevc5LqUKEoVCkB8"
+			]
+		}
+	},
+	"version": 1
+}

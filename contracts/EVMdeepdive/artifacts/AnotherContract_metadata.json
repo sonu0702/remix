@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.5.11+commit.c082d0b4"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myContract",
+				"outputs": [
+					{
+						"internalType": "contract MyContract",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EVMdeepdive/2_Exercise.sol": "AnotherContract"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EVMdeepdive/1_Exercise.sol": {
+			"keccak256": "0xe13cb8e07c1a11a8bf21daa84cdd94dda7f46dd88ec269f7fe295ad9568eb26a",
+			"urls": [
+				"bzz-raw://e03594c793fa6dff7f154ca6ec01171a6233007791b8181078fa214135f36839",
+				"dweb:/ipfs/QmbFQZB5kd6Gf98i9mhd5j4LERDPbbhPLzGFttcQgJfXUd"
+			]
+		},
+		"contracts/EVMdeepdive/2_Exercise.sol": {
+			"keccak256": "0xbd57715033c151354de1a04061543dde677bfac64312c86eb0a7045b0e65ed2f",
+			"urls": [
+				"bzz-raw://cbd5bad42565b03e210591234e882c6937a739f6144e176936975e6be828da07",
+				"dweb:/ipfs/QmQz75ytNLkdiTSgtEfPYp29aMVChV1DLi9pjzBzBksh8v"
+			]
+		}
+	},
+	"version": 1
+}
